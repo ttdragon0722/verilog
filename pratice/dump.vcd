@@ -1,0 +1,76 @@
+$date
+	Fri May 12 23:21:50 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Practice $end
+$var wire 4 ! X [3:0] $end
+$var reg 4 " A [3:0] $end
+$var reg 4 # B [3:0] $end
+$var reg 4 $ C [3:0] $end
+$scope module uut $end
+$var wire 4 % A [3:0] $end
+$var wire 4 & B [3:0] $end
+$var wire 4 ' C [3:0] $end
+$var reg 4 ( X [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1001 (
+b1001 '
+b101 &
+b11 %
+b1001 $
+b101 #
+b11 "
+b1001 !
+$end
+#100
+b1 !
+b1 (
+b1 $
+b1 '
+b0 #
+b0 &
+b0 "
+b0 %
+#200
+b1 !
+b1 (
+b0 $
+b0 '
+b1 #
+b1 &
+#300
+b1 $
+b1 '
+#400
+b0 $
+b0 '
+b1 !
+b1 (
+b0 #
+b0 &
+b1 "
+b1 %
+#500
+b1 $
+b1 '
+#600
+b0 $
+b0 '
+b1 #
+b1 &
+#700
+b1 $
+b1 '
+#800
