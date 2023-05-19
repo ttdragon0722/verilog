@@ -1,0 +1,33 @@
+{
+	"testbench": {
+		"prefix": "testbench",
+		"body": [
+			"`timescale 1ns/1ns",
+			"module $1();",
+			"",
+			"\treg $2;",
+			"\twire $3;",
+			"",
+			"\t$4 uut(",
+			"\t\t$5",
+			"\t);",
+			"",
+			"\tinitial begin",
+			"\t\t$6",
+			"\tend",
+			"\tinitial begin",
+			"\t\t$$display(\"Starting Testbench\");",
+			"\t\t#100;",
+			"\t\t$$finish;",
+			"\tend",
+			"",
+			"\tinitial begin",
+			"\t\t$$dumpfile(\"dump.vcd\");",
+			"\t\t$$dumpvars(0);",
+			"\tend",
+			"",
+			"endmodule"
+		],
+		"description": ""
+	}
+}

@@ -1,0 +1,149 @@
+$date
+	Sat May 13 20:51:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ex2_test $end
+$var wire 1 ! Y $end
+$var wire 1 " Z $end
+$var wire 7 # X [6:0] $end
+$var wire 6 $ W [5:0] $end
+$var wire 5 % V [4:0] $end
+$var wire 7 & U [6:0] $end
+$var wire 8 ' T [7:0] $end
+$var wire 6 ( S [5:0] $end
+$var wire 9 ) R [8:0] $end
+$var reg 7 * P [6:0] $end
+$var reg 7 + Q [6:0] $end
+$scope module uut $end
+$var wire 7 , P [6:0] $end
+$var wire 7 - Q [6:0] $end
+$var wire 1 ! Y $end
+$var wire 1 " Z $end
+$var reg 9 . R [8:0] $end
+$var reg 6 / S [5:0] $end
+$var reg 8 0 T [7:0] $end
+$var reg 7 1 U [6:0] $end
+$var reg 5 2 V [4:0] $end
+$var reg 6 3 W [5:0] $end
+$var reg 7 4 X [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 4
+bx 3
+b1x000 2
+b1111111 1
+b1011 0
+b0 /
+b11 .
+b0 -
+b1 ,
+b0 +
+b1 *
+b11 )
+b0 (
+b1011 '
+b1111111 &
+b1x000 %
+bx $
+bx #
+z"
+z!
+$end
+#10
+b1111110 &
+b1111110 1
+b1101 '
+b1101 0
+b1001 )
+b1001 .
+b1 +
+b1 -
+b11 *
+b11 ,
+#20
+b0x000 %
+b0x000 2
+b1111101 &
+b1111101 1
+b10000 '
+b10000 0
+b10010 )
+b10010 .
+b11 +
+b11 -
+b110 *
+b110 ,
+#30
+b1x000 %
+b1x000 2
+b1111110 &
+b1111110 1
+b1101 '
+b1101 0
+b10 (
+b10 /
+b1001 )
+b1001 .
+b1001 +
+b1001 -
+b11 *
+b11 ,
+#40
+b100 (
+b100 /
+b10001 +
+b10001 -
+#50
+b1 (
+b1 /
+b101 +
+b101 -
+#60
+b1110010 &
+b1110010 1
+b11001 '
+b11001 0
+b11 (
+b11 /
+b101101 )
+b101101 .
+b1101 +
+b1101 -
+b1111 *
+b1111 ,
+#70
+b1x001 %
+b1x001 2
+b1111110 &
+b1111110 1
+b11101 '
+b11101 0
+b0 (
+b0 /
+b111001 )
+b111001 .
+b1 +
+b1 -
+b10011 *
+b10011 ,
+#80
+b1x000 %
+b1x000 2
+b1101 '
+b1101 0
+b1001 )
+b1001 .
+b11 *
+b11 ,
+#100

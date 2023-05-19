@@ -3,6 +3,7 @@ module append_test();
 
     reg A,B,Ci;
     wire S,Co;
+    reg sin;
 
     append_gate uut(
         .S(Out),
@@ -11,6 +12,16 @@ module append_test();
         .B(B),
         .C(Ci)
     );
+
+
+    reg ck=0;
+
+    initial begin
+        forever begin
+            #100;
+            ck = ~ck;
+        end
+    end
 
     initial begin
         A=1'b0;
