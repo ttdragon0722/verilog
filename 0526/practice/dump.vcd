@@ -1,0 +1,109 @@
+$date
+	Thu May 25 22:33:28 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Test $end
+$var wire 4 ! Q2 [3:0] $end
+$var wire 4 " Q1 [3:0] $end
+$var reg 1 # D $end
+$var reg 1 $ clk $end
+$scope module uut $end
+$var wire 1 $ Clk $end
+$var wire 1 # D $end
+$var reg 4 % X [3:0] $end
+$var reg 4 & Y [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx &
+bx %
+0$
+0#
+bx "
+bx !
+$end
+#100
+bx1 !
+bx1 &
+b1111 "
+b1111 %
+1#
+1$
+#200
+0$
+#300
+bx10 !
+bx10 &
+b0 "
+b0 %
+1$
+0#
+#400
+0$
+#500
+bx101 !
+bx101 &
+b1111 "
+b1111 %
+1$
+1#
+#600
+0$
+#700
+b1010 !
+b1010 &
+b0 "
+b0 %
+1$
+0#
+#800
+0$
+#900
+b101 !
+b101 &
+b1111 "
+b1111 %
+1$
+1#
+#1000
+0$
+#1100
+b1011 !
+b1011 &
+1$
+#1200
+0$
+#1300
+b111 !
+b111 &
+1$
+#1400
+0$
+#1500
+b1111 !
+b1111 &
+1$
+#1600
+0$
+#1700
+1$
+#1800
+0$
+#1900
+1$
+#2000
+0$
+#2100
+1$
+#2200
+0$

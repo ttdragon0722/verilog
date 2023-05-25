@@ -1,0 +1,71 @@
+$date
+	Thu May 25 22:24:27 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Test $end
+$var reg 1 ! D $end
+$var reg 1 " clk $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0"
+0!
+$end
+#100
+1!
+1"
+#200
+0"
+#300
+1"
+0!
+#400
+0"
+#500
+1"
+1!
+#600
+0"
+#700
+1"
+0!
+#800
+0"
+#900
+1"
+1!
+#1000
+0"
+#1100
+1"
+#1200
+0"
+#1300
+1"
+#1400
+0"
+#1500
+1"
+#1600
+0"
+#1700
+1"
+#1800
+0"
+#1900
+1"
+#2000
+0"
+#2100
+1"
+#2200
+0"
