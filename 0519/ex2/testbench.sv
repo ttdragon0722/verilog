@@ -1,15 +1,15 @@
 `timescale 1ns/1ns
-`include "./design.sv"
+// `include "./design.sv"
 module ex2_test();
 
-    reg [6:0] P,Q ;
-    wire [8:0] R;
-    wire [5:0] S;
+    reg [4:0] P,Q ;
+    wire [6:0] R;
+    wire [3:0] S;
     wire [7:0] T;
-    wire [6:0] U;
+    wire [4:0] U;
     wire [4:0] V;
     wire [5:0] W;
-    wire [6:0] X;
+    wire [4:0] X;
     wire Y;
     wire Z;
 
@@ -28,27 +28,16 @@ module ex2_test();
     );
 
     initial begin
-        P=5'b00001;Q=5'b00000;
-        #10;
-        P=5'b00011;Q=5'b00001;
-        #10;
-        P=5'b00110;Q=5'b00011;
-        #10;
-        P=5'b00011;Q=5'b01001;
-        #10;
-        P=5'b00011;Q=5'b10001;
-        #10;
-        P=5'b00011;Q=5'b00101;
-        #10;
-        P=5'b01111;Q=5'b01101;
-        #10;
-        P=5'b10011;Q=5'b00001;
-        #10;
-        P=5'b00011;Q=5'b00001;
+        #100;
+        P = 5'b01010;Q = 5'b10101;
+        #100;
+        P = 5'b00011;Q = 5'b11100;
+        #100;
+        P = 5'b11100;
     end
     initial begin
         $display("Starting Testbench");
-        #100;
+        #400;
         $finish;
     end
 

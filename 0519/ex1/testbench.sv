@@ -22,12 +22,12 @@ module Practice();
 
 
     initial begin
-        A = 3 ; B = 5 ; C = 4;
-        #200;
-        A = 1 ; B = 2 ; C = 3;
-        #200;
-        A = 7 ; B = 6 ; C = 5;
-        #200;
+        #100;
+        A = 4'b1111;B = 4'b1010;C = 4'b0000;
+        #100;
+        A = 4'b1011;B = 4'b1000;C = 4'b0001;
+        #100;
+        A = 4'b1010;C = 4'b1010;
     end
     initial begin
         $display("Starting Testbench");
