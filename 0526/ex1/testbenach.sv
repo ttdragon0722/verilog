@@ -16,11 +16,6 @@ module Test();
         end
     end
 
-    always@ (posedge clk) begin
-
-    end
-
-
     initial begin
         clk = 1'b0;D = 1'b0;
         #100;

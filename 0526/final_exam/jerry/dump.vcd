@@ -1,0 +1,100 @@
+$date
+	Fri May 26 15:32:20 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tc2 $end
+$scope module uut $end
+$var wire 1 ! Clk $end
+$var wire 1 " D $end
+$var reg 4 # Q2 [3:0] $end
+$var integer 32 $ i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx $
+bx #
+0"
+0!
+$end
+#100
+bx1 #
+b100 $
+1"
+1!
+#200
+0!
+#300
+bx10 #
+b100 $
+0"
+1!
+#400
+0!
+#500
+bx101 #
+b100 $
+1"
+1!
+#600
+0!
+#700
+b1010 #
+b100 $
+0"
+1!
+#800
+0!
+#900
+b101 #
+b100 $
+1"
+1!
+#1000
+0!
+#1100
+b1011 #
+b100 $
+1!
+#1200
+0!
+#1300
+b110 #
+b100 $
+0"
+1!
+#1400
+0!
+#1500
+b1100 #
+b100 $
+1!
+#1600
+1"
+0!
+#1700
+b1001 #
+b100 $
+1!
+#1800
+0!
+#1900
+b11 #
+b100 $
+1!
+#2000
+0!
+#2100
+b111 #
+b100 $
+1!
+#2200
